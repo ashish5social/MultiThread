@@ -8,6 +8,7 @@ public class Greeter implements Runnable{
 		rand = new Random(); 
 	}
 	
+	
 	@Override
 	public void run() {
 		int rand_int1 = rand.nextInt(10); 
